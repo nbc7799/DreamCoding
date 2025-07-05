@@ -10,8 +10,8 @@ export default function AppCounter() {
         Total Count: {totalCount} {totalCount > 10 ? "🔥" : "🧊"}
       </div>
       <div>
-        <Counter1 totalCount={totalCount} setTotalCount={setTotalCount} />
-        <Counter1 totalCount={totalCount} setTotalCount={setTotalCount} />
+        <Counter1 setTotalCount={setTotalCount} />
+        <Counter1 setTotalCount={setTotalCount} />
       </div>
     </div>
   );
